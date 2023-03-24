@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    }
+    /*Estilo do body*/
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+    
+    .anotacao {
+        background-color: rgb(244,248,19);
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .cabecalho {
+        padding: 60px;
+        height: 290PX;
+        color:rgb(0, 0, 0);
+        background-image: url(../imagens/CONEXÃOdavi.png);
+        background-size: cover;
+        text-align:center;
+    }
+    /*Estilo da barra de navegação*/
+    .barra_nav {
+        display:flex;
+        background-color: rgb(255, 247, 161);
+    }
+    
+    /*Estilo dos links da barra de navegação*/
+    .barra_nav a {
+        color: rgb(0, 0, 0);
+        padding: 10px 170px;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    /*trocar a cor de fundo quando o cursor estiver sobre o link*/
+    .barra_nav a:hover {
+        background-color: rgb(254, 243, 117);
+        color:#333;
+    }
+    
+    /*Configurar a div coluna*/
+    .coluna {
+        display: flex;
+       flex-wrap: wrap;
+       
+    
+    }
+    /*Criar 2 colunas desiguais (30 e 70%) */
+    .lateral {
+        flex: 20%;
+        background-color: #e7e6e5;
+        padding: 20px;
+    }
+
+    .lateral a {
+        font-size: 14px;
+    }
+
+    .principal {
+        flex: 40%;
+        background-color: rgb(255, 253, 249);
+        padding: 20px;
+    }
+    
+    .direita {
+        flex: 35%;
+        background-color: rgb(255, 253, 249);
+        padding: 20px;
+    }
+    
+    /*Imagens Falsas apenas para marcação do espaço*/
+    .imagem_falsa {
+        background-color: aquamarine;
+        width:100%;
+        padding:20px;
+        height:200px;
+        border: 2px solid;
+    }
+    .imagem_falsa2 {
+        background-color: #EB7B57;
+        width:100%;
+        padding:20px;
+        height:60px;
+        margin-bottom: 10px;
+        border: 3px solid;
+        
+    }
+
+    .imagem_falsa2:hover{
+        background-color: #ffac70b5;
+       
+    } 
+
+
+    .imagem_falsa3 {
+            background-color:#ed646497;
+            width:70%;
+            padding:30px;
+            height:150px;
+            border: 3PX SOLID;
+            text-align: center;
+    }
+
+    .imagem_falsa3:hover{
+        background-color: #c06b6ad6;
+
+    }
+
+    .imagem_falsa4 {
+        background-color: #e7e6e5;
+        width:50%;
+        padding:20px;
+        height:10px;
+        text-align: center;
+        border: 3px solid;
+    }
+
+    .imagem_falsa5 {
+        background-color:#ed646497;
+        width:70%;
+        padding:50px;
+        height:200px;
+       text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        border: 3px solid;
+    }
+
+  
+    aside a { /*altera as propriedades dos links*/
+        color:black;
+        text-decoration: none;
+    }
+    aside a:hover {
+        color:rgb(0, 76, 255);
+        text-decoration: none;
+    }
+  
+    
+.rodape {
+    padding: 5px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    background-color: black;
+    background-image: url(../imagens/rood.png);
+    
+}
+
+
+        @media screen and (max-width: 500px) {
+            .coluna, .barra_nav {
+                flex-direction: column;
+            }
+            .cabecalho {
+                background-image: url(../imagem/painel4.png);
+                background-size: cover;
+                color: rgba(255,255,255);
+            }
+        }
