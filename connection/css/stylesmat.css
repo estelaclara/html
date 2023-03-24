@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+ }
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+ }
+ 
+ .cabecalho {
+     padding: 50px;
+     height: 290px;
+     text-align: center;
+     background-size: cover;
+     color: rgb(2, 2, 2);
+     background-image: url(../imagens/CONEXÃO.png)
+
+ }
+
+
+ 
+ /*estilo da barra navegação*/
+ .barra_nav {
+     display: flex;
+     background-color: rgb(255, 247, 161);
+
+ }
+ 
+ /*estilo dos links da barra de navegação*/
+ .barra_nav a {
+     color: rgb(0, 0, 0);
+     padding: 10px 170px;
+     text-decoration: none;
+     text-align: center;
+ }
+ .barra_nav a:hover {
+    color: black;
+    background-color: rgb(254, 243, 117);
+ }
+ 
+ @media screen and (max-width: 500px){
+    .coluna, .barra_nav {
+        flex-direction: column;
+    }
+    .cabecalho {
+        background-image: url(../imagens/titulo.png);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+    }
+    }
+
+    .card { 
+        width: 45%;/*largura do card*/
+        display: inline-block; /*posiciona os cards em linha*/
+    }
+
+    .coluna {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+     }
+
+     .lateral {
+        flex: 30%;
+        background-color: rgb(249, 249, 249);
+        padding: 10px;
+        align-content: center;
+     }
+    
+     .principal {
+        flex: 70%;
+        background-color: rgb(252, 252, 252);
+        padding: 1px;
+    }
+
+    .mat {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .mat:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .lp {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .lp:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .bio {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .bio:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .hist {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .hist:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .geo {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .geo:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .fis {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .fis:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .qui {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .qui:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .socio {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .socio:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .filo {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .filo:hover {
+        background-color: #ffac70bc
+        ;
+    }
+    
+    .ingles {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .ingles:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .artes {
+        background-color: rgb(228, 132, 64);
+        width: 50%;
+        padding: 15px;
+        height: 50px;
+        margin-bottom: 10px;
+        border: 1px solid;
+    }
+
+    .artes:hover {
+        background-color: #ffac70bc
+        ;
+    }
+
+    .btn{
+        display: block; /*exibir o conteúdo no formato de um bloco*/
+        width:36%; /*ocupar 100% do espaço disponnível no card*/
+        text-align: center; /* alinhar o texto no centro do espaço indicado pelo comando width*/
+        text-decoration: rgb(214, 77, 47); /*Remove o sublinhado do texto*/
+        background-color: rgb(214, 77, 47);; /*altera a cor de fundo do display block (botão)*/
+        color: rgb(0, 0, 0); /*muda a cor da fonte do texto*/
+        padding: 8px; /*espaçamento de 15px ao redor do display block*/
+        margin-bottom: 15px ; /*adiciona uma margem abaixp do botão de 10px*/
+        border-radius: 5px; /*arredonda os cantos do botão*/
+        display: inline-flex;
+        }
+    
+        .btn1{
+            display: block; /*exibir o conteúdo no formato de um bloco*/
+            width: 20%; /*ocupar 100% do espaço disponnível no card*/
+            height: 30px;
+            text-align: center; /* alinhar o texto no centro do espaço indicado pelo comando width*/
+            text-decoration: rgb(224, 206, 203); /*Remove o sublinhado do texto*/
+            background-color: rgb(196, 184, 181);; /*altera a cor de fundo do display block (botão)*/
+            color: rgb(196, 184, 181); /*muda a cor da fonte do texto*/
+            padding: 5px; /*espaçamento de 15px ao redor do display block*/
+            margin-bottom: 10px; /*adiciona uma margem abaixp do botão de 10px*/
+            border-radius: 5px; /*arredonda os cantos do botão*/
+            display: inline-flex;
+            background-image: url(../imagens/iconpesquisar.png);
+            background-repeat: no-repeat;
+            margin-left: 195px;
+            }
+
+    
+    
+            
+        .product-image {
+            height: 200px; /*altura da imagem*/
+            width: 75%; /*ocupar 100% do card*/
+            background-position: center;
+            background-position: cover;
+            margin: 0;
+        
+        }
+        
+        #img-1 {
+        background-image: url(../imagens/teoremadepitagoras.jfif);
+        }
+
+        #img-2 {
+        background-image: url(../imagens/barroco.jfif);
+        }
+        
+        #img-3 {
+        background-image: url(../imagens/guerrafria.jfif);
+        }
+
+        #img-4 {
+        background-image: url(../imagens/placas.jfif);
+        }
+
+        #img-5 {
+        background-image: url(../imagens/video\ aula\ guerra\ fria.jfif)
+        }
+
+        #img-6 {
+            background-image: url(../imagens/videoaulabarroco.jfif)
+            }
+
+        .rodape{
+            padding: 40px;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            background-image: url(../imagens/Rodape.png);
+                }
+                
+               
+                
+
+
+                    
+        
+                
+        
+
+
+   
