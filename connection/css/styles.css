@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+ }
+ /*estilo do body*/
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+ }
+ 
+ .anotacao {
+     background-color: rgb(251, 225, 79);
+     padding: 5px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+ }
+ 
+ .cabecalho {
+     padding: 60px;
+     height: 290px;
+       color: rgb(0, 0, 0);
+     background-image: url(../imagens/CONEXÃO.png);
+     background-size: cover;
+     text-align: right;}
+ 
+ /*estilo da barra navegação*/
+ .barra_nav {
+     display: flex;
+     background-color: rgb(255,247, 161);
+     
+     
+
+ }
+ 
+ /*estilo dos links da barra de navegação*/
+ .barra_nav a {
+     color: rgb(0, 0, 0);
+     padding: 10px 170px;
+     text-decoration: none;
+     
+     
+     
+ }
+ .barra_nav a:hover {
+    color: black;
+    background-color: rgb(254, 243, 117);
+ }
+
+
+
+  /*conteudo principal*/
+.container {
+    display: flex;
+    flex-wrap: wrap;/*quebra de paragrafo*/
+    justify-content: center;
+    margin: 5rem 0;
+    gap: 0rem;
+}
+.btn{
+    display: block; /*exibir o conteúdo no formato de um bloco*/
+    width: 65%; /*ocupar 100% do espaço disponnível no card*/
+    text-align: center; /* alinhar o texto no centro do espaço indicado pelo comando width*/
+    text-decoration: rgb(255, 145, 120); /*Remove o sublinhado do texto*/
+    background-color: rgb(255, 132, 104);; /*altera a cor de fundo do display block (botão)*/
+    padding: 15px; /*espaçamento de 15px ao redor do display block*/
+    margin-bottom: 400px ; /*adiciona uma margem abaixp do botão de 10px*/
+    margin: 10px;
+    border-radius: 5px; /*arredonda os cantos do botão*/
+    display: inline-flex;
+    background-image: url(../imagens/lupa.png);
+    background-repeat: no-repeat;
+    margin-left: 220px;
+    }
+
+   
+ .novo-item {
+    
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0, 0.34) 4px 6px 8px;
+    margin: 5px;
+    padding: 0rem;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 8px;
+    
+ }
+
+ .item-novo {
+    
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0, 0.34) 4px 6px 8px;
+    margin: 5rem;
+    margin-left: 110px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+ }
+
+ .rodape {
+   padding: 10px;
+   width: 1050%;
+   height: 90px;
+   text-align: center;
+   background-color: black;
+   background-image: url(../imagens/Rodape.png);}
+
